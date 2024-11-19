@@ -1,0 +1,96 @@
+/* General styling for the register form container */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7fc;
+  }
+  
+  .register-form {
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  .register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #2c3e50;
+  }
+  
+  /* Styling for all form labels */
+  .register-form label {
+    font-size: 16px;
+    color: #34495e;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  /* Styling for all form inputs and textareas */
+  .register-form input,
+  .register-form select,
+  .register-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fafafa;
+    box-sizing: border-box;
+  }
+  
+  /* Make inputs and select fields more interactive */
+  .register-form input:focus,
+  .register-form select:focus,
+  .register-form textarea:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  /* Student, Consultant, and Investor specific fields */
+  .studentFields,
+  .consultantInvestorFields,
+  .adminFields {
+    display: block;
+  }
+  
+  /* Button styling */
+  .register-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-form button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .register-form {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .register-form h2 {
+      font-size: 20px;
+    }
+  
+    .register-form button {
+      font-size: 16px;
+    }
+  }
+  

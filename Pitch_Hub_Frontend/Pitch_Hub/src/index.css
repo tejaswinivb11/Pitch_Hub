@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.back{
+  background-color: #102542!important ;
+}
+
+.text{
+  color: #102542!important ;
+}
+
+.login{
+  margin-top: 15%;
+}
+
+li{
+ margin-top: 2%;
+}
+
+.bg-image{
+  background-image: url('../src/images/login.png');
+  background-position: center;
+  background-size: cover;
+}
+
+
+.text-j{
+  text-align: justify;
+}
+
+.bounce-out-fwd{animation:bounce-out-fwd 1.5s both}
+@keyframes bounce-out-fwd{0%{transform:translateZ(0);animation-timing-function:ease-out}5%{transform:translateZ(90px);animation-timing-function:ease-in}15%{transform:translateZ(0);animation-timing-function:ease-out}25%{transform:translateZ(95px);animation-timing-function:ease-in}38%{transform:translateZ(0);animation-timing-function:ease-out}52%{transform:translateZ(150px);animation-timing-function:ease-in}70%{transform:translateZ(0);animation-timing-function:ease-out}85%{opacity:1}100%{transform:translateZ(500px);animation-timing-function:ease-in;opacity:0}}
+
+
+.tracking-in-expand{animation:tracking-in-expand 2s cubic-bezier(.215,.61,.355,1.000) both}
+@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+.focus-in-expand-fwd{animation:focus-in-expand-fwd .8s cubic-bezier(.25,.46,.45,.94) both}
+@keyframes focus-in-expand-fwd{0%{letter-spacing:-.5em;transform:translateZ(-800px);filter:blur(12px);opacity:0}100%{transform:translateZ(0);filter:blur(0);opacity:1}}
+
+.kenburns-top{animation:kenburns-top 5s ease-out both}
+@keyframes kenburns-top{0%{transform:scale(1) translateY(0);transform-origin:50% 16%}100%{transform:scale(1.25) translateY(-15px);transform-origin:top}}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.text-h{
+  position: relative;
+  padding-left: 50%;
+  padding-top: 20% ;
+  padding-bottom: 10%;
+}
+
+.text-i{
+  position: relative;
+  padding-left: 50%;
+  padding-top: 10% ;
+}
+
+.main{
+  position: absolute;
+  
+  
+}
+
+.icon{
+  position: relative;
+  padding-left: 50%;
+  padding-top: 5% ;
+  padding-left: 60% ;
+}
